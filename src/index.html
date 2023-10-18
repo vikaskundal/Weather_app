@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!------------------------CSS------------------------------->
+    <link rel="stylesheet" type="text/css" href="index.css">
+<!------------------------FaVICON------------------------------->
+    <link rel="shortcut icon" href="../images/clouds.png" type="img/x-icon">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="card">
+        <h1>Weather App</h1>
+        <!--Search bar starts-->
+        <div class="search">
+            <input id="search-result" type="text" placeholder="Enter city name" spellcheck="false" required>
+            <button class="btn">Search</button>
+        </div>
+        <!-- Search bar end-->
+        
+        <div class="err">
+            <p>Invalid City name</p>
+        </div>
+
+        <!-- weather section strat-->
+        <div class="weather">
+            <img src="/images/clouds.png" alt="clouds" class="weather-icon">
+            <h1 class="temp" id="temp"></h1>
+            <h2 class="city">Sydeny, Aus</h2>
+
+        </div>
+        <!--Weather section end-->
+
+        <!-- card section start-->
+        <div class="details">
+            <div class="col">
+                <img src="/images/humidity.png" alt="humidity">
+
+                <div class=" card-details">
+                    <p class="humidity">66%</p>
+                    <p>humidity</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="/images/barometer.png" alt="barometer" > 
+
+                <div class="card-details">
+                    <p class="Air-pressure">1013</p>
+                    <p>Air pressure</p>
+                </div>
+
+            </div>
+
+        
+
+    
+        </div>
+         <!-- degree button-->
+         <div class="degree-btn">
+            <button id="celcius" class="btn-item1">°C</button>
+            <button id="farenheit" class="btn-item2">°F</button>
+        </div>
+    <!-- degree button end-->
+
+
+    </div>
+
+<script src="index.js"></script>  
+</body>
+</html>

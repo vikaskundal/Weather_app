@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "lora", serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E7EA96;
+}
+
+h1{
+    font-weight: 700;
+    color: #E7EA96;
+}
+
+.card{
+    width: 90%;
+    height: 60%;
+    max-width: 470px;
+    background:#48aff2;
+    color: #fff;
+    margin: 100px auto;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 9px;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #e8f0fd;
+    color:#555;
+    padding: 5px 10px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+
+}
+
+.btn{
+    border: 0;
+    border-radius: 30px;
+    outline: 0;
+    padding: 5px 10px;
+    background: #ffdb62;
+    cursor: pointer;
+}
+
+/* weather start*/
+
+.weather-icon{
+    width: 170px;
+    margin-top: 20px;
+}
+
+.weather h1{
+    font-size:80px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+/* Card section start*/
+
+.details{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+
+.col{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: left;
+
+}
+
+.col img{
+    width: 60px;
+    padding: 15px;
+}
+
+.humidity,
+.wind,
+.Air-pressure{
+    font-size: 20px;
+    margin-top: -10px;
+
+}
+
+.degree-btn{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+    
+}
+
+
+.btn-item1{
+    border: 1px solid #ff8855 ;
+    font-size: 20px;
+    text-align: center;
+    background-color: #ff8855;
+    padding: 5px 20px;
+    color:#fff;
+
+}
+
+.btn-item2{
+    border: 1px solid #fbdd66 ;
+    font-size: 20px;
+    text-align: center;
+    background-color: #fbdd66;
+    padding: 5px 20px;
+    color:#fff;
+
+}
+
+.weather{
+    display: none;
+}
+
+.err{
+    text-align: left;
+    margin-left: 14px;
+    font-size:10px;
+    margin-top:10px;
+    display: none;
+}
