@@ -48,20 +48,23 @@ async function checkWeather(city) {
             weatherIcon.src = "../images/mist.png";
           }
 
-          //display weather section hide error message
+          //display weather and detials section hide error message
 
           document.querySelector(".weather").style.display="block";
           document.querySelector(".details").style.display="block";
-           document.querySelector(".err").style.display="none";
+          document.querySelector(".degree-btn").style.display="block";
+          document.querySelector(".err").style.display="none";
 
           // store celcius value
 
           cel=tempCelcius;
         }catch(error){
-            document.querySelector(".err").style.display="block";
-            document.querySelector(".details").style.display="none";
-            document.querySelector(".weather").style.display="none";
-            console.error(error);
+            // hide eather and details section and display error message
+            document.querySelector(".err").style.display= "block";
+            document.querySelector(".details").style.display= "none";
+            document.querySelector(".degree-btn").style.display= "none";
+            document.querySelector(".weather").style.display= "none";
+            console.log(error);
 
 
     }
