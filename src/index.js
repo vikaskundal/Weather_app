@@ -1,12 +1,12 @@
 // API keys and end point url
 let API_key="53bc5f78fef601c7472512af4dc7d358";
-let API_url=`https://api.openweathermap.org/data/2.5/weather?q=Sydney&appid=53bc5f78fef601c7472512af4dc7d358`;
+let API_url="https://api.openweathermap.org/data/2.5/weather?units=metric&lang=en";
 
 
 // DOM Element
 
 let searchBox=document.querySelector(".search input");
-let searchButton=document.querySelector(".search button");
+let searchButton=document.querySelector(".search .btn");
 let weatherIcon=document.querySelector(".weather-icon");
 
 let cel;
