@@ -19,3 +19,11 @@ npm-debug.log*
 
 # Node modules (if you add any later)
 node_modules/
+
+# Development and documentation files
+DEPLOYMENT_GUIDE.md
+docs/
+notes/
+todo.txt
+*.dev.md
+*.guide.md
